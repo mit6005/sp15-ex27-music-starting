@@ -13,12 +13,12 @@ public class ScaleSequence {
     /**
      * Play an octave up and back down starting from middle C.
      * 
-     * addNote(base, tick, duration) schedules a note with pitch value 'base' starting at
-     * 'tick' to be played for 'duration' number of ticks.
+     * addNote(instr, pitch, startBeat, numBeats) schedules a note with pitch value 'pitch'
+     * played by 'instr' starting at 'startBeat' to be played for 'numBeats' beats.
      * 
      * For example:
-     *     addNote(new Pitch('C').toMidiNote(), 10, 1)
-     * plays middle C at time step 10 for 1 time step.
+     *     addNote(Instrument.PIANO, new Pitch('C'), 10, 1)
+     * plays middle C at beat 10 for 1 beat.
      */
     public static void main(String[] args) throws MidiUnavailableException, InvalidMidiDataException {
 

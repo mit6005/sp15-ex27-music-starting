@@ -35,7 +35,7 @@ public class Pitch {
     };
     
     private static final String[] VALUE_TO_STRING = {
-        "C", "^C", "D", "^D", "E", "F", "^F", "G", "G^", "A", "^A", "B"
+        "C", "^C", "D", "^D", "E", "F", "^F", "G", "^G", "A", "^A", "B"
     };
     
     /**

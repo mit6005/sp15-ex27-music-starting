@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class MusicLanguage {
     
     // Prevent instantiation
-    private MusicLanguage() {}
+    protected MusicLanguage() {}
     
     ////////////////////////////////////////////////////
     // Factory methods
